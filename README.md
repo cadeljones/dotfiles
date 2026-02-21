@@ -7,6 +7,10 @@ Managed with GNU Stow.
 - `nvim` -> `~/.config/nvim`
 - `tmux` -> `~/.config/tmux/tmux.conf`
 - `ghostty` -> `~/.config/ghostty/config`
+- `zsh` -> `~/.zshrc`, `~/.zprofile`, `~/.zshenv`
+- `karabiner` -> `~/.config/karabiner/karabiner.json`
+- `zed` -> `~/.config/zed/settings.json`
+- `aerospace` -> `~/.config/aerospace/aerospace.toml`
 
 ## First-time setup (this machine)
 
@@ -18,7 +22,7 @@ Managed with GNU Stow.
 
 ```bash
 # Link/update packages
-stow -R -t ~ nvim tmux ghostty
+stow -R -t ~ nvim tmux ghostty zsh karabiner zed aerospace
 
 # Remove links for a package
 stow -D -t ~ nvim

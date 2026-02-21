@@ -2,7 +2,7 @@
 set -euo pipefail
 
 DOTFILES_DIR="${DOTFILES_DIR:-$HOME/dotfiles}"
-PACKAGES=(nvim tmux ghostty)
+PACKAGES=(nvim tmux ghostty zsh karabiner zed aerospace)
 
 if ! command -v stow >/dev/null 2>&1; then
   if command -v brew >/dev/null 2>&1; then

@@ -5,6 +5,15 @@
 nvim/.config/nvim/lua/local.lua
 tmux/.config/tmux/local.conf
 ghostty/.config/ghostty/local.conf
+zsh/.zshrc.local
 
 # If tmux plugins are ever stored under .config
 tmux/.config/tmux/plugins/
+
+# Zed runtime data (not config)
+zed/.config/zed/conversations/
+zed/.config/zed/embeddings/
+zed/.config/zed/prompts/
+
+# Karabiner backups
+karabiner/.config/karabiner/automatic_backups/
