@@ -1,0 +1,10 @@
+.DS_Store
+**/.DS_Store
+
+# Machine-local overrides
+nvim/.config/nvim/lua/local.lua
+tmux/.config/tmux/local.conf
+ghostty/.config/ghostty/local.conf
+
+# If tmux plugins are ever stored under .config
+tmux/.config/tmux/plugins/
